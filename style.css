@@ -1,0 +1,85 @@
+main {
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products {
+    width: 50%;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid lightgrey;
+    position: relative;
+    width: 100%;
+}
+
+.picture {
+    position: relative;
+}
+
+.picture i {
+    position:absolute;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: lightgrey;
+}
+
+.red {
+    color: red !important;
+}
+
+.picture img {
+    /* width: 200px; */
+    height: 100px;
+    padding: 20px;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    
+}
+
+.quantity input {
+   width: 15%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+}
+
+
+.price p {
+    margin-bottom: 0;
+}
+.price small {
+    margin-bottom: 0;
+}
+
+.delete {
+    position:absolute;
+    top: 2px;
+    right: 5px;
+    height: 30px;
+}
+
+.delete button {
+    font-size: 9px;
+}
+
+.total {
+    background-color: lightgrey;
+    padding: 30px;
+    height: 30%;
+    border-radius: 10px;
+}

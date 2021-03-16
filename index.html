@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f081874a85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cart</title>
+
+</head>
+<body>
+    <div class="title">
+
+        <h1>Your Cart</h1>
+    </div>
+    <main>
+        <div class="products">
+            <div class="product" id="fifties">
+                <div class="picture">
+                    <img src="./assets/50s-Wanda.jpg" alt="50s Wanda Funko Pop">
+                    <i class="fas fa-heart" onclick="onFav(this)"></i>
+                </div>
+                <h4>50s Wanda</h4>
+                <div class="quantity">
+                    <button class="remove">
+                       -
+                    </button>
+                    <input type="number" value="1">
+                    <button class="add">
+                        +
+                    </button> 
+
+                </div>
+                <div class="price">
+                    <p>200</p>
+                    <small>EGP</small>
+                </div>
+
+                <button class="delete">
+                    Delete
+                </button>
+            </div>
+            <div class="product" id="seventies">
+                <div class="picture">
+                    <img src="./assets/70s-Wanda.png" alt="70s Wanda Funko Pop">
+                    <i class="fas fa-heart" onclick="onFav(this)"></i>
+                </div>
+                <h4>70s Wanda</h4>
+                <div class="quantity">
+                    <button class="remove">
+                        -
+                    </button>
+                    <input type="number" value="1">
+
+                    <button class="add">
+                       +
+                    </button>
+            
+                </div>
+                <div class="price">
+                    <p>200</p>
+                    <small>EGP</small>
+                </div>
+                <button class="delete">
+                    Delete
+                </button>
+            </div>
+            <div class="product" id="halloween">
+                <div class="picture">
+                    <img src="./assets/halloween-Wanda.jpg" alt="Halloween Wanda Funko Pop">
+                    <i class="fas fa-heart" onclick="onFav(this)"></i>
+                </div>
+                <h4>Halloween Wanda</h4>
+                <div class="quantity">
+                    <button class="remove">
+                        -
+                    </button>
+                    <input type="number" value="1">
+                    <button class="add">
+                        +
+                    </button>
+            
+                </div>
+                <div class="price">
+                    <p>200</p>
+                    <small>EGP</small>
+                </div>
+                <button class="delete">
+                    Delete
+                </button>
+            </div>
+            <div class="product" id="scarlet">
+                <div class="picture">
+                    <img src="./assets/scarlet-witch-wanda.png" alt="Scarlet Witch Wanda Funko Pop">
+                    <i class="fas fa-heart" onclick="onFav(this)"></i>
+                </div>
+                <h4>Scarlet Witch Wanda</h4>
+                <div class="quantity">
+                    <button class="remove">
+                        -
+                    </button>
+                    <input type="number" value="1">
+                    <button class="add">
+                        +
+                    </button>
+            
+                </div>
+                <div class="price">
+                    <p>200</p>
+                    <small>EGP</small>
+                </div>
+                <button class="delete">
+                    Delete
+                </button>
+            </div>
+        </div>
+        <div class="total">
+            <h2>Summary</h2>
+            <p>Total Price</p>
+            <p id="total-price">
+            
+            </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
